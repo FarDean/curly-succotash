@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Link } from "./components/Link";
+import { Str } from "./components/Str";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 				<Link url="/" classname="App-link" variant="secondary">
 					learn react
 				</Link>
+				<Str name="fardean" age={27}></Str>
 			</header>
 		</div>
 	);
